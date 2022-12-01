@@ -2,7 +2,9 @@
 Après clonage du depository n'oublier pas d'installer les modules : npm i 
 
 Pour lancer l'application : npm run dev (port 3001)
+
 Pour créer un build next : npm run build 
+
 Pour lancer l'application en next : npm start
 
 
