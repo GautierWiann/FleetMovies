@@ -17,17 +17,9 @@ function Search(props) {
         `https://api.themoviedb.org/3/search/movie?api_key=d10984763f2efdaf65b18c9ffabf8b5f&language=fr-fr&query=${props.search}&page=1&include_adult=false`
       );
       const response = await rawResponse.json();
-      console.log(
-        "🚀 ~ file: search.js ~ line 40 ~ loadmovie ~ response",
-        response
-      );
       const formatedData = response.results.map((movie) => {
         const genres = [];
         for (const genre of movie.genre_ids) {
-          console.log(
-            "🚀 ~ file: Home.js ~ line 61 ~ formatedData ~ genre",
-            genre
-          );
           if (genre === 28) {
             genres.push("Action");
           } else if (genre === 12) {

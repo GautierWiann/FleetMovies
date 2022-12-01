@@ -29,10 +29,6 @@ function Cat(props) {
         const formatedData = response.results.map((movie) => {
           const genres = [];
           for (const genre of movie.genre_ids) {
-            console.log(
-              "🚀 ~ file: Home.js ~ line 61 ~ formatedData ~ genre",
-              genre
-            );
             if (genre === 28) {
               genres.push("Action");
             } else if (genre === 12) {

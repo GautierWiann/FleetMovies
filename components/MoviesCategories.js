@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
+
 
 import Cat from "./CategoryMovies";
 import "antd/dist/antd.css";
-import styles from "../styles/Home.module.css";
 
 function MoviesCat() {
   const categoriesData = [

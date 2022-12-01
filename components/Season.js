@@ -1,10 +1,5 @@
 import { useState, useEffect } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart, faStar, faVideo } from "@fortawesome/free-solid-svg-icons";
 import styles from "../styles/Season.module.css";
-import { Modal, Tag } from "antd";
-
-import { useDispatch, useSelector } from "react-redux";
 import Episode from "./Episode";
 
 function Season(props) {

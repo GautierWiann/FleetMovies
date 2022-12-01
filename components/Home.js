@@ -14,7 +14,6 @@ import styles from '../styles/Home.module.css';
 function Home() {
   const [search, setSearch] = useState('');
   const [searching, setSearching] = useState(false)
-  const dispatch = useDispatch()
   
 
 
