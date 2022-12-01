@@ -1,0 +1,39 @@
+.description {
+    font-weight: 300;
+    font-size: 17px;
+    margin-left: 2vw;
+    margin-bottom: 2%;
+  }
+
+  .descriptionContainer {
+    display: flex;
+    margin-bottom: 2%;
+    font-family:Arial, Helvetica, sans-serif
+  }
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+  }
+.number {
+  font-weight: 300;
+  font-size: 18px;
+  margin-left: 2vw;
+  color: #f1c40f;
+}
+.name {
+  font-weight: 300;
+  font-size: 18px;
+  margin-left: 2vw;
+  color: whitesmoke;
+}
+
+.poster {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 13vw;
+  border-color: #f1c40f;
+  border-width: 2px;
+  height: auto;
+  border-style: solid;
+
+}

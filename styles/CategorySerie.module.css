@@ -1,0 +1,44 @@
+
+.title {
+	max-width: 100vw;
+	margin: 2% 5% 1% 5%;
+	padding-top: 3%;
+	font-weight: 600;
+	color:#F2A643;
+	border-top-color: #f2be43;
+	border-top-width: 2px;
+	border-top-style: solid;
+	font-size: 18px;
+}
+
+
+
+.seriesContainer {
+	display: inline-flex;
+	margin-inline: 10%;
+	width: 80%;
+    height: 55vh;
+    white-space:nowrap;
+	margin-bottom: 2rem;
+}
+
+.moviesContainer::-webkit-scrollbar {
+    -webkit-appearance: none;
+	height: 0.4rem;
+}
+
+.moviesContainer::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: #f2be4397;
+}
+
+
+.likedMoviesContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.crossIcon {
+	cursor: pointer;
+}
